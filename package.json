@@ -1,0 +1,22 @@
+{
+  "name": "blocknative-notifications",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "env-cmd -f .env next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "firebase": "^7.14.1",
+    "next": "9.3.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "web3": "^1.2.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "env-cmd": "^10.1.0",
+    "typescript": "^3.8.3"
+  }
+}
