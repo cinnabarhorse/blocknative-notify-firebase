@@ -4,6 +4,8 @@ import 'firebase/auth'
 
 export default async function loadFirebase() {
 
+    console.log('project id:', process.env.FIREBASE_PROJECTID)
+
     try {
         firebase.initializeApp({
             apiKey: process.env.FIREBASE_APIKEY,
